@@ -93,6 +93,7 @@ plt.title('Pairplot of rating and skills')
 plt.savefig('plots/seaborn_pairplot.png')
 plt.clf()
 
+
 # Reputation, FIFA rating and foot
 f, ax = plt.subplots(figsize=(8, 6))
 sns.stripplot(x='international_reputation', y='overall', hue='preferred_foot',
